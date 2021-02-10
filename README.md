@@ -21,9 +21,9 @@
 
 This project is part of the Udacity Data Scientist Nanodegree. Its purpose is to show how to build a pipeline that can be used within an app to process real-world, user-supplied images.  Given an image of a dog, the algorithm will identify an estimate of the canine’s breed.  If supplied an image of a human, the code will identify the resembling dog breed.
 
-First, a classifier is trained using the train_classifier.py file in the app folder. This model is saved as a .json file to the saved_models folder along with an .hdf5 file containing the best weights determined during training. In order to successfully run this file, additional files from the full [Udacity project repository](https://github.com/udacity/dog-project/) are required.
+First, a classifier is trained using the *train_classifier.py* file. This model is saved as a *.json* file to the *saved_models* folder along with an *.hdf5* file containing the best weights determined during training. In order to successfully run this file, additional files from the full [Udacity project repository](https://github.com/udacity/dog-project/) are required.
 
-Next, a prediction can be made utilizing this trained classifier by running the predict.py file found in the app folder. By default, a prediction is made on the default image shown below. Otherwise, a file path can be provided as an argument.
+Next, a prediction can be made utilizing this trained classifier by running the *predict.py* file. By default, a prediction is made on the default image shown below. Otherwise, a file path can be provided as an argument.
 
 ![Default Image][image1]
 
