@@ -42,7 +42,7 @@ https://github.com/udacity/dog-project/blob/master/README.md
 
 #### *predict.py*
 * **Python:** version 3.5+
-* **Image Processing:** cv2, numpy
+* **Image Processing:** os, cv2, numpy
 * **File Processing:** glob
 * **Keras Libraries:** models.model_from_json, preprocessing.image, applications.resnet50.ResNet50, applications.resnet50.preprocess_input
 * **Additional Files:** *haarcascade_frontalface_alt.xml* found in the full [Udacity project repository](https://github.com/udacity/dog-project/)
