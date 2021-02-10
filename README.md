@@ -72,7 +72,7 @@ https://github.com/udacity/dog-project/blob/master/README.md
 	- To make a prediction using the default image file: 
 		`python predict.py`
 	- To make a prediction using your own image file: 
-		**example - ** `python predict.py --image images\Brittany_02625.jpg`
+		**example** **-** `python predict.py --image images\Brittany_02625.jpg`
 		
 
 ### Acknowledgements<a name="acknowledgements"></a>
