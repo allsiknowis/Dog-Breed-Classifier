@@ -65,7 +65,7 @@ https://github.com/udacity/dog-project/blob/master/README.md
 
 
 ### Instructions <a name="instructions"></a>
-1. Run the following commands in the project's root directory to train the model:
+1. Run the following commands in the project's root directory to train the model: 
 	`python train_classifier.py`
 
 2. Run the following command in the project's root directory to predict a dog breed for an image.
