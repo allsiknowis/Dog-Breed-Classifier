@@ -27,7 +27,7 @@ Next, a prediction can be made utilizing this trained classifier by running the 
 
 ![Default Image][image1]
 
-For the full Udacity project, navigate to the github repository below and follow the instructions in the README file:
+For the full Udacity project, navigate to the following github repository and follow the instructions in the README file:
 ```	
 https://github.com/udacity/dog-project/blob/master/README.md
 ```
