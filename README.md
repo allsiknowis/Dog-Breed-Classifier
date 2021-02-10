@@ -69,9 +69,9 @@ https://github.com/udacity/dog-project/blob/master/README.md
 	`python train_classifier.py`
 
 2. Run the following command in the project's root directory to predict a dog breed for an image.
-	- To make a prediction using the default image file
+	- To make a prediction using the default image file: 
 		`python predict.py`
-	- To make a prediction using your own image file
+	- To make a prediction using your own image file: 
 		example: `python predict.py --image images\Brittany_02625.jpg`
 		
 
