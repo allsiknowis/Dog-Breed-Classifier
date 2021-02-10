@@ -41,11 +41,11 @@ https://github.com/udacity/dog-project/blob/master/README.md
 * Additional Files: the full set of dog images used for training, and *DogResnet50Data.npz* found in the full [Udacity project repository](https://github.com/udacity/dog-project/)
 
 #### predict.py
-* Python: version 3.5+
-* Image Processing: cv2, numpy
-* File Processing: glob
-* Keras Libraries: models.model_from_json, preprocessing.image, applications.resnet50.ResNet50, applications.resnet50.preprocess_input
-* Additional Files: haarcascade_frontalface_alt.xml found in the full [Udacity project repository](https://github.com/udacity/dog-project/)
+* Python: *version 3.5+*
+* Image Processing: *cv2, numpy*
+* File Processing: *glob*
+* Keras Libraries: *models.model_from_json, preprocessing.image, applications.resnet50.ResNet50, applications.resnet50.preprocess_input*
+* Additional Files: *haarcascade_frontalface_alt.xml* found in the full [Udacity project repository](https://github.com/udacity/dog-project/)
 
 
 #### File Descriptions <a name="files"></a>
