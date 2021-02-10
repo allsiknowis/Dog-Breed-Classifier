@@ -47,6 +47,7 @@ https://github.com/udacity/dog-project/blob/master/README.md
 * Keras Libraries: models.model_from_json, preprocessing.image, applications.resnet50.ResNet50, applications.resnet50.preprocess_input
 * Additional Files: haarcascade_frontalface_alt.xml found in the full [Udacity project repository](https://github.com/udacity/dog-project/)
 
+
 #### File Descriptions <a name="files"></a>
 `dog_app Notebook:` A full walkthrough of the dog breed classification pipeline.
 
@@ -62,8 +63,9 @@ https://github.com/udacity/dog-project/blob/master/README.md
 
 `saved_models/weights.best.Resnet50.hdf5:` The weights file produced during model training when running train_classifier.py
 
+
 ### Instructions <a name="instructions"></a>
-1. Run the following commands in the project's root directory to set up your database and model.
+1. Run the following commands in the project's root directory to train the model.
 	`python train_classifier.py`
 
 2. Run the following command in the project's root directory to predict a dog breed for an image.
@@ -72,5 +74,6 @@ https://github.com/udacity/dog-project/blob/master/README.md
 	- To make a prediction using your own image file
 		example: `python predict.py --image images\Brittany_02625.jpg`
 		
+
 ### Acknowledgements<a name="acknowledgements"></a>
 * This program is part of [Udacity](https://www.udacity.com/)'s Data Scientist Nanodegree
