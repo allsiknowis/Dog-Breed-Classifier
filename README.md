@@ -37,7 +37,7 @@ https://github.com/udacity/dog-project/blob/master/README.md
 #### *train_classifier.py*
 * **Python:** version 3.5+
 * **File Processing:** numpy, sklearn.datasets.load_files
-* **Keras Libraries:** utils.np_utils, models.Sequential, layers.MaxPooling2D, layers.GlobalAveragePooling2D, layers.Dropout, layers.Desne, callbacks.ModelCheckpoint
+* **Keras Libraries:** utils.np_utils, models.Sequential, layers.MaxPooling2D, layers.GlobalAveragePooling2D, layers.Dropout, layers.Dense, callbacks.ModelCheckpoint
 * **Additional Files:** the full set of dog images used for training, and *DogResnet50Data.npz* found in the full [Udacity project repository](https://github.com/udacity/dog-project/)
 
 #### *predict.py*
