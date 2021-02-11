@@ -21,11 +21,11 @@
 
 This project is part of the Udacity Data Scientist Nanodegree. Its purpose is to show how to build a pipeline that can be used within an app to process real-world, user-supplied images.  Given an image of a dog, the algorithm will identify an estimate of the canine’s breed.  If supplied an image of a human, the code will identify the resembling dog breed.
 
-First, a classifier is trained using the *train_classifier.py* file. This model is saved as a *.json* file to the *saved_models* folder along with an *.hdf5* file containing the best weights determined during training. In order to successfully run this file, additional files from the full [Udacity project repository](https://github.com/udacity/dog-project/) are required.
+First, a classifier is trained via Transfer Learning using the *train_classifier.py* file. Bottleneck features are loaded before the model is compiled and trained on them. This model is saved as a *.json* file to the *saved_models* folder along with an *.hdf5* file containing the best weights determined during training. In order to successfully run this file, additional files from the full [Udacity project repository](https://github.com/udacity/dog-project/) are required.
 
-Second, a web server containing the prediction pipeline is started by the user from the command line by running the *run_server.py* file.
+Second, a web server containing the prediction pipeline is started by the user from the command line by running the *run_server.py* file. Once an image path is sent to the server via the *predict.py* file, the image is opened and read so that it can be checked for the presence of a human face by a face classifier. If a human face is detected, that indication is added to a results list for later printing. The image path is then used to predict a dog breed for the human and the predicted breed is added to a results list. If no human face has been detected, however, the image is checked for the presense of a dog. If a dog is detected in the image, that indication is also added to a results list. (If no dog is detected, an error is displayed.) The image is then converted to a 3D tensor and then to a 4D tensor to be used as input to a classifier. A pre-trained ResNet-50 model is then loaded and used to predict a label classification for the image. Subsequently, that label is used to predict a dog breed using Transfer Learning and the model trained in the step above, and the predicted breed is added to the results list for printing.
 
-Finally, a prediction can be made utilizing the trained classifier by running the *predict.py* file. By default, a prediction is made on the default image shown below. Otherwise, a file path can be provided as an argument.
+Finally, the prediction is output to the screen. By default, a prediction is made on the default image shown below. Otherwise, a file path can be provided as an argument.
 
 ![Default Image][image1]
 
