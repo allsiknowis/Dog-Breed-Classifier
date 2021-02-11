@@ -62,7 +62,7 @@ https://github.com/udacity/dog-project/blob/master/README.md
 
 `report.html:` An HTML file of the *dog_app* notebook.
 
-`train_classifier.py:` A Python file used for training a classification model on dog images, saving the best weights found during fitting, and saving the model trained model to a .json file.
+`train_classifier.py:` A Python file used for training a classification model on dog images, saving the best weights found during fitting, and saving the trained model to a .json file.
 
 `run_server.py:` A Python file used for running a web server and predicting a dog breed for a supplied image file using the model trained in *train_classifier.py*
 
@@ -76,7 +76,7 @@ https://github.com/udacity/dog-project/blob/master/README.md
 
 
 ### Instructions <a name="instructions"></a>
-1. Run the following commands in the project's root directory to train the model: 
+1. (Optional) Run the following commands in the project's root directory to train the model: 
 	`python train_classifier.py`
 
 2. Run the following command in the project's root directory to start the web server in order to make a prediciton.
