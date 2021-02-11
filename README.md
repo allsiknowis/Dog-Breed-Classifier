@@ -60,7 +60,7 @@ https://github.com/udacity/dog-project/blob/master/README.md
 #### File Descriptions <a name="files"></a>
 `dog_app.ipynb:` A notebook file containing the full walkthrough of the dog breed classification pipeline.
 
-`report.html:` An HTML file of the dog_app notebook.
+`report.html:` An HTML file of the *dog_app* notebook.
 
 `train_classifier.py:` A Python file used for training a classification model on dog images, saving the best weights found during fitting, and saving the model trained model to a .json file.
 
