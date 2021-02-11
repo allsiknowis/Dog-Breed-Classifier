@@ -23,7 +23,9 @@ This project is part of the Udacity Data Scientist Nanodegree. Its purpose is to
 
 First, a classifier is trained using the *train_classifier.py* file. This model is saved as a *.json* file to the *saved_models* folder along with an *.hdf5* file containing the best weights determined during training. In order to successfully run this file, additional files from the full [Udacity project repository](https://github.com/udacity/dog-project/) are required.
 
-Next, a prediction can be made utilizing this trained classifier by running the *predict.py* file. By default, a prediction is made on the default image shown below. Otherwise, a file path can be provided as an argument.
+Second, a web server containing the prediction pipeline is started by the user from the command line by running the *run_server.py* file.
+
+Finally, a prediction can be made utilizing the trained classifier by running the *predict.py* file. By default, a prediction is made on the default image shown below. Otherwise, a file path can be provided as an argument.
 
 ![Default Image][image1]
 
