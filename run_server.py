@@ -1,10 +1,9 @@
 # With help from https://github.com/jrosebr1/simple-keras-rest-api/blob/master/run_keras_server.py
 # Start the server:
-# 	python run_keras_server.py
-# Submit a request via cURL:
-# 	curl -X POST -F image=@dog.jpg 'http://localhost:4000/predict'
+# 	python run_server.py
+
 # Submita a request via Python:
-#	python simple_request.py
+#	python pred_request.py
 
 import cv2
 import flask
