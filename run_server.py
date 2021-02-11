@@ -175,13 +175,6 @@ def run_app(img_path):
 
     # if a human face is detected, predict a dog breed for it
     if face_detector(img_path):
-        '''
-        Description: Checks whether a picture file located in img_path contains a human face. If it does, the image is used to predict the dog breed. Results are added to a list for printing when the app has finished running.
-
-        Input:  img_path - a string indicating the filepath of the image
-
-        Output: none
-        '''
         # predict dog breed for human
         predicted_breed = predict_breed(img_path)
         # add grammatically correct breed to results list
@@ -193,13 +186,6 @@ def run_app(img_path):
 
     # if a dog is detected, predict its breed
     elif dog_detector(img_path):
-        '''
-        Description: Checks whether a picture file located in img_path contains a dog. If it does, the image is used to predict the dog breed. Results are added to a list for printing when the app has finished running.
-
-        Input:  img_path - a string indicating the filepath of the image
-
-        Output: none
-        '''
         # if the image contains a dog, add it to results list
         data["predictions"].append("That's a dog!")
         # predict breed
