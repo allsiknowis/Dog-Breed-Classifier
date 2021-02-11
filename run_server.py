@@ -212,9 +212,6 @@ def predict():
 	if flask.request.method == "POST":
 		request_data = flask.request.get_json()
 		image = request_data["image"]
-		print()
-		print(image)
-		print()
 		if image:
 			print('Creating predictions list...\n')
 			data["predictions"] = []
