@@ -25,7 +25,7 @@ First, a classifier is trained via Transfer Learning using the *train_classifier
 
 Second, a web server containing the prediction pipeline is started by the user from the command line by running the *run_server.py* file. Once an image path is sent to the server via the *predict.py* file, the image is opened and read so that it can be checked for the presence of a human face by a face classifier. If a human face is detected, that indication is added to a results list for later printing. The image path is then used to predict a dog breed for the human and the predicted breed is added to a results list. If no human face has been detected, however, the image is checked for the presense of a dog. If a dog is detected in the image, that indication is also added to a results list. (If no dog is detected, an error is displayed.) The image is then converted to a 3D tensor and then to a 4D tensor to be used as input to a classifier. A pre-trained ResNet-50 model is then loaded and used to predict a label classification for the image. Subsequently, that label is used to predict a dog breed using Transfer Learning and the model trained in the step above, and the predicted breed is added to the results list for printing.
 
-Finally, the prediction is output to the screen. By default, a prediction is made on the default image shown below. Otherwise, a file path can be provided as an argument.
+Finally, the prediction is output to the screen. By default, a prediction is made on the default image shown below. Otherwise, a file path can be provided as an argument. Admittedly, this model isn't perfect but it does attain about 80% accuracy.
 
 ![Default Image][image1]
 
