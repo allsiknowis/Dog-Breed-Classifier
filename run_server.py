@@ -1,7 +1,6 @@
 # With help from https://github.com/jrosebr1/simple-keras-rest-api/blob/master/run_keras_server.py
 # Start the server:
 # 	python run_server.py
-
 # Submita a request via Python:
 #	python pred_request.py
 
