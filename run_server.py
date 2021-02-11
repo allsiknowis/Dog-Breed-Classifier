@@ -208,19 +208,16 @@ def predict():
 	data = {"success": False}
 
 	# ensure an image was properly uploaded to our endpoint
-	print('Getting image filepath...')
 	if flask.request.method == "POST":
 		request_data = flask.request.get_json()
 		image = request_data["image"]
 		if image:
-			print('Creating predictions list...\n')
 			data["predictions"] = []
+			
 			# run the app using the image filepath in the parser
-			print('Running app...\n')
 			run_app(image)
 
 			# indicate that the request was a success
-			print('Reporting success as true.\n')
 			data["success"] = True
 
 	# return the data dictionary as a JSON response
