@@ -91,3 +91,4 @@ https://github.com/udacity/dog-project/blob/master/README.md
 
 ### Acknowledgements<a name="acknowledgements"></a>
 * This program is part of [Udacity](https://www.udacity.com/)'s Data Scientist Nanodegree and all image files come from their [repository](https://github.com/udacity/dog-project/)
+* A write-up of this project can be found on [Medium](https://steveellingson.medium.com/do-you-look-like-your-dog-6937b7f71c0f) 
