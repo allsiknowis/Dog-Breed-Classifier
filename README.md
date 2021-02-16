@@ -91,7 +91,7 @@ https://github.com/udacity/dog-project/blob/master/README.md
 		**example** **-** `python pred_request.py --image images\Brittany_02625.jpg`
 		
 
-### Summary of Results<a name="summary"></>
+### Summary of Results<a name="summary"></a>
 The process of creating a way to detect both humans and dogs and then make a prediction of dog breed is not exactly a short and simple one. We utilized a feature-based cascade classifier from OpenCV to detect human faces. This comes with the drawback that a user must pass in an image that provides a clear view of a human face for the face to be accurately detected. This could be circumvented by instead implementing a multi-task cascaded CNN (MTCNN) which can detect the presence of additional facial features. But for our purposes here, the feature-based classifier is sufficient.
 We also created an improved CNN by utilizing transfer learning and bottleneck features from a pretrained model to reach over 80% accuracy. It is possible to achieve even better results by putting in the time to tune the model parameters even further, to add additional layers, and to perhaps train over a different number of epochs.
 In the end, we produced a workable solution for using convolutional neural networks to detect whether an image contains a human or a dog and to predict a dog breed for it with reasonably acceptable results.
