@@ -14,7 +14,7 @@
         
 3. [Instructions](#instructions)
 
-4.[Summary of Results](#summary)
+4. [Summary of Results](#summary)
 
 5. [Acknowledgements](#acknowledgements)
 
